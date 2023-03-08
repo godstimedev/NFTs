@@ -8,10 +8,7 @@ const NftDetails = () => {
 	const [isModal, setIsModal] = useState(false);
 	const [modalData, setModalData] = useState({});
 
-	console.log(isModal);
-
 	const handleClick = (item) => {
-		console.log(item);
 		setModalData(item);
 		setIsModal(!isModal);
 	};
@@ -27,7 +24,6 @@ const NftDetails = () => {
 							title={item.title}
 							image={item.image}
 							short={item.short_description}
-							description={item.description}
 							price={item.price}
 						/>
 					</div>

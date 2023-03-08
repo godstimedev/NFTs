@@ -19,8 +19,7 @@ export const Container = styled.div`
 	> img {
 		width: 100%;
 		height: 60%;
-		object-fit: cover;
-		border-radius: 10px;
+		object-fit: contain;
 		:hover {
 			scale: 1.1;
 			transition: scale 0.2s ease-in-out;

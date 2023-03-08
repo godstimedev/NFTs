@@ -4,15 +4,14 @@ export const Container = styled.div`
 	position: fixed;
 	display: grid;
 	place-items: center;
-	/* background-color: gray; */
 	backdrop-filter: blur(10px);
 	top: 0;
 	left: 0;
 	z-index: 20;
 	width: 100%;
-	height: 100%;
-	@media (max-width: 560px) {
-		place-items: end;
+	height: 100vh;
+	@media (max-width: 960px) {
+		place-items: center;
 	}
 
 	.modal--content {
@@ -28,9 +27,11 @@ export const Container = styled.div`
 		gap: 1.5rem;
 		@media (max-width: 960px) {
 			flex-direction: column;
-			width: 70%;
+			width: 80%;
 			height: fit-content;
 			padding: 1rem;
+			gap: 0.7rem;
+			align-self: flex-end;
 		}
 		@media (max-width: 560px) {
 			width: 100%;
@@ -39,14 +40,15 @@ export const Container = styled.div`
 		}
 
 		img {
-			flex: 1;
+			/* flex: 1; */
 			border-radius: 5px;
 			min-width: 40%;
 			height: 100%;
 			object-fit: cover;
 			@media (max-width: 960px) {
-				max-width: 100%;
-				height: 20%;
+				width: 100%;
+				height: 30vh;
+				object-fit: contain;
 			}
 		}
 
@@ -60,8 +62,11 @@ export const Container = styled.div`
 		.content {
 			display: flex;
 			flex-direction: column;
-			/* justify-content: space-between; */
 			gap: 2rem;
+
+			@media (max-width: 560px) {
+				gap: 1rem;
+			}
 
 			.header {
 				h1 {
@@ -80,13 +85,6 @@ export const Container = styled.div`
 						font-size: 1rem;
 						font-weight: 700;
 					}
-					/* .tag {
-					background-color: #333;
-					padding: 0.4rem;
-					border-radius: 5px;
-					font-size: 0.8rem;
-					font-weight: 500;
-				} */
 				}
 			}
 
@@ -99,11 +97,15 @@ export const Container = styled.div`
 				background-color: #f4f4f4;
 				font-weight: 600;
 				font-size: 1rem;
+				@media (max-width: 960px) {
+					max-width: auto;
+					width: 100%;
+					margin-bottom: 0.5rem;
+				}
 
 				:hover {
 					background: #333;
-					/* transform-origin: 0% */
-					transition: background linear 0.3s ease-in;
+					transition: 0.3s ease-in;
 					color: #fff;
 				}
 			}

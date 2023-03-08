@@ -1,5 +1,3 @@
-import { Nft1, Nft2, Nft3, Nft4, Nft5 } from '../assets/images';
-
 const nfts = [
 	{
 		title: 'Amosu Nwoke',
@@ -43,7 +41,7 @@ const nfts = [
 		owner: 'ArtGodwinking',
 		price: '0.300 ETH',
 		image:
-			'https://i.seadn.io/gae/Yx3EqaxtqPKwjftOedPBw7CS-1EBhHoM2E2b-irDWst4Rar8uGrnSGkgRnYxuNWOmWxUlhBptIP2hiXjBg0aIJWgd6yxDw4yn-C5rSA?auto=format&w=384',
+			'https://i.seadn.io/gae/hN5cIjtLRGIwNhRxDUt4FIImzQ8zEzlDBIGlvb6rCb4y1jZOjgXcQO9KBAkyAWiocLQu3lQMNu3q_2C2WnEkAuOz_F5nH0tPupal?auto=format&w=384',
 		short_description: "Asante is a powerful god who is one of the womb tree's guards.",
 		description:
 			"Asante is a powerful god who is one of the womb tree's guards. With his never-ending rounds of god-killing bullets, he tirelessly guides his people and the womb tree.",
@@ -64,6 +62,19 @@ const nfts = [
 			'https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/78373681182126491141078333551687473481030795564840001610416670141658284687361',
 	},
 	{
+		title: 'Moremi ajasoro',
+		owner: 'ArtGodwinking',
+		price: '0.300 ETH',
+		image:
+			'https://i.seadn.io/gae/z0Z6gUZNMeRYXQHCbhU6mjXBriganD2aoaSl-IYzFzhUeYpyqjRqSmNr75y-PD4_ErQTpK27kFw_MfDYHKr2zu5aM_cvPUgpNAzt?auto=format&w=1000',
+		short_description:
+			'Moremi, liberated her people from a neighboring kingdom, seeing her deligence,the womb tree granted her the powers to cast spells.',
+		description:
+			'Moremi, liberated her people from a neighboring kingdom, seeing her deligence,the womb tree granted her the powers to cast spells.',
+		link:
+			'https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/78373681182126491141078333551687473481030795564840001610416670153752912592897',
+	},
+	{
 		title: 'Bode',
 		owner: 'ArtGodwinking',
 		price: '0.300 ETH',
@@ -75,6 +86,45 @@ const nfts = [
 			'Bode possesses the ability to teleport, and he can self-generate the ball in his hands, allowing him to appear anywhere the ball is. He can also control the mass and weight of the ball he produces with his hands.',
 		link:
 			'https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/78373681182126491141078333551687473481030795564840001610416670160349982359562',
+	},
+	{
+		title: 'Amahle',
+		owner: 'ArtGodwinking',
+		price: '0.300 ETH',
+		image:
+			'https://i.seadn.io/gae/rMuJkpvN3AcIFbNV95HrvxsBZXB3Pg0vI3pXzx3oBNP1SeFxGXPTkxGzPDnGQ4RKRGh96L0UbKLzXQv-PYoYnMVbaT5nnGal1txHqg?auto=format&w=1000',
+		short_description:
+			'Amahle was a poor girl from South Africa who had nowhere to go after her parent died in an accident, she became an orphan, with an exceptional voice...',
+		description:
+			'Amahle was a poor girl from South Africa who had nowhere to go after her parent died in an accident, she became an orphan, with an exceptional voice, when she grew up, she shared the little money she had made from music competitions to put children of her community in schools, wanting a better life for the next generation even though she was not rich herself, the womb tree appeared to her and she became the Dyna voice With an extremely sonic sound wave blast and bulletproof body, she can temporarily deafen her enemies and bring melodies to those she loves.',
+		link:
+			'https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/78373681182126491141078333551687473481030795564840001610416670147155842826241',
+	},
+	{
+		title: 'Queen Amina',
+		owner: 'ArtGodwinking',
+		price: '0.300 ETH',
+		image:
+			'https://i.seadn.io/gae/6nxK5MixayQoNq84tdpSkkgo222g71wShe-kDtCv03BlUu_lBBR3RmRyObzlVnIdqMvD2zCMTr14BOvuKS1N7m3mVEXBBLnCN94yZw?auto=format&w=1000',
+		short_description:
+			'Queen Amina is the first woman to be crowned sarauniya (queen) in a male-dominated society.',
+		description:
+			"Queen Amina is the first woman to be crowned sarauniya (queen) in a male-dominated society. During her reign, she expanded the hausa people's territory in northern Nigeria to its largest borders in history. She vanished in 1610, after people noticed she didn't age. Her sword fighting skills are flawless, and she was chosen by the womb tree to guide and protect her people.",
+		link:
+			'https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/78373681182126491141078333551687473481030795564840001610416670144956819570689',
+	},
+	{
+		title: 'The Priest',
+		owner: 'ArtGodwinking',
+		price: '0.300 ETH',
+		image:
+			'https://i.seadn.io/gae/r3k8aFwQyts-2c8QQbetfxJnxpZV2ZHVI5Y3Y4F39tzAugzY9r1XVqIpK-6FCUqelX7SupFsh3__MeQf8yyDz1-3MKHoCYocxPBhSQ?auto=format&w=1000',
+		short_description:
+			'The priest has no known origin, only that he was one of the first ibun to be created...',
+		description:
+			'The priest has no known origin, only that he was one of the first ibun to be created. His rings grant him the power of magic from the womb tree, but when he removes them, he transforms into another person and lives a normal life.',
+		link:
+			'https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/78373681182126491141078333551687473481030795564840001610416670142757796315137',
 	},
 ];
 
