@@ -30,7 +30,6 @@ const NftDetails = () => {
 	};
 
 	const url = `https://eth-mainnet.g.alchemy.com/v2/${process.env.REACT_APP_API_KEY}/getNFTs/?owner=${ownerAddress}`;
-	console.log(url);
 
 	useEffect(() => {
 		const fetchData = async () => {
