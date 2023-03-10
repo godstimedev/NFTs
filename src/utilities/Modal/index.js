@@ -26,26 +26,23 @@ const Modal = ({ setIsModal, isModal, modalData }) => {
 				<div className="close" onClick={() => setIsModal(!isModal)}>
 					<AiOutlineClose size={25} color="white" />
 				</div>
-				<img src={modalData.image} alt={modalData.title} />
+				<img src={modalData.media[0].thumbnail} alt={modalData.title} />
 				<div className="content">
 					<div className="header">
 						<h1>{modalData.title}</h1>
 						<div>
 							<p>
-								By {''}
-								<Link to="https://opensea.io/ArtGodwinking/created" target="_blank">
-									<span> {modalData.owner}</span>
-								</Link>
+								<span> {modalData.contractMetadata.openSea.collectionName}</span>
 							</p>
-							<span className="tag">{modalData.price}</span>
+							<span className="tag">{modalData.contractMetadata.openSea.floorPrice} </span>
 						</div>
 					</div>
 
-					<div>
+					<div className="description">
 						<h4>Description</h4>
 						<p>{modalData.description}</p>
 					</div>
-					<Link to={modalData.link} target="_blank">
+					<Link to={`https://opensea.io/assets/ethereum/${modalData.contract.address}/`} target="_blank">
 						<button>Buy NFT</button>
 					</Link>
 				</div>

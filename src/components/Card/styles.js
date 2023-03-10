@@ -27,10 +27,12 @@ export const Container = styled.div`
 	}
 
 	.details {
+		height: 40%;
 		margin-top: 0.8rem;
 		display: flex;
 		flex-direction: column;
 		gap: 0.8rem;
+		overflow: hidden;
 
 		> div {
 			display: flex;
@@ -48,6 +50,13 @@ export const Container = styled.div`
 					font-weight: 500;
 				}
 			}
+		}
+		p {
+			height: 100%;
+			white-space: wrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			margin-bottom: 1rem;
 		}
 	}
 `;

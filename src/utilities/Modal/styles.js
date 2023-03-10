@@ -40,7 +40,6 @@ export const Container = styled.div`
 		}
 
 		img {
-			/* flex: 1; */
 			border-radius: 5px;
 			min-width: 40%;
 			height: 100%;
@@ -63,6 +62,7 @@ export const Container = styled.div`
 			display: flex;
 			flex-direction: column;
 			gap: 2rem;
+			width: 100%;
 
 			@media (max-width: 560px) {
 				gap: 1rem;
@@ -76,6 +76,10 @@ export const Container = styled.div`
 					display: flex;
 					justify-content: space-between;
 					align-items: center;
+					@media (max-width: 560px) {
+						gap: 0.8rem;
+						flex-direction: column;
+					}
 
 					span {
 						width: fit-content;
@@ -86,6 +90,10 @@ export const Container = styled.div`
 						font-weight: 700;
 					}
 				}
+			}
+
+			.description {
+				word-break: break-all;
 			}
 
 			button {

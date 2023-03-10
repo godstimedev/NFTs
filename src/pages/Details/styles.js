@@ -9,6 +9,50 @@ export const Container = styled.div`
 		padding: 2rem;
 	}
 
+	> .loading {
+		color: white;
+		font-size: 1rem;
+		text-align: center;
+	}
+	> .error {
+		color: crimson;
+		font-size: 1rem;
+		text-align: center;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1.5rem;
+		margin-bottom: 1.5rem;
+
+		div {
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+			@media (max-width: 460px) {
+				flex-direction: column;
+			}
+
+			input {
+				border: none;
+				outline: none;
+				border-radius: 5px;
+				padding: 0.5rem 0.7rem;
+			}
+		}
+
+		button {
+			padding: 0.5rem 1.5rem;
+			border: none;
+			outline: none;
+			background-color: #f4f4f4;
+			cursor: pointer;
+			font-size: 0.9rem;
+			font-weight: 500;
+		}
+	}
+
 	h1 {
 		font-weight: bold;
 		text-align: center;
